@@ -1,0 +1,20 @@
+{
+    "name": "seal/primitives",
+    "description": "A set of wrapper classes over primitive types",
+    "type": "library",
+    "require": {
+        "seal/wrappers": "1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Seal\\Primitives\\": "wrapper/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nick Simon"
+        }
+    ],
+    "minimum-stability": "stable"
+}
