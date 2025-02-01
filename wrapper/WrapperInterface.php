@@ -8,5 +8,7 @@ interface WrapperInterface
 
     public function setValue(mixed $value): void;
 
+    public function isEmpty(): bool;
+
     public function __toString(): string;
 }

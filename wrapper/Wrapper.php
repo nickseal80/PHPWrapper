@@ -3,7 +3,7 @@
 namespace Wrapper;
 
 class Wrapper implements WrapperInterface {
-    private mixed $value;
+    private mixed $value = null;
 
     public function __construct(mixed $value) {
         $this->value = $value;
@@ -15,6 +15,10 @@ class Wrapper implements WrapperInterface {
 
     public function setValue(mixed $value): void {
         $this->value = $value;
+    }
+
+    public function isEmpty(): bool {
+        return $this->value === null;
     }
 
     public function __toString(): string {
