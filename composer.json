@@ -1,9 +1,9 @@
 {
-    "name": "seal/primitives",
+    "name": "nickseal/primitives",
     "description": "A set of wrapper classes over primitive types",
     "type": "library",
     "require": {
-        "seal/wrappers": "1.0"
+        "nick-seal/wrappers": "1.0"
     },
     "license": "MIT",
     "autoload": {
