@@ -1,5 +1,6 @@
 <?php
 
+namespace Wrapper;
 class WString extends Wrapper implements WrapperInterface
 {
     private string $value;

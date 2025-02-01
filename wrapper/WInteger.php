@@ -1,5 +1,6 @@
 <?php
 
+namespace Wrapper;
 class WInteger extends Wrapper implements WrapperInterface
 {
     private int $value;

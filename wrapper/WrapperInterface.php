@@ -1,5 +1,7 @@
 <?php
 
+namespace Wrapper;
+
 interface WrapperInterface
 {
     public function getValue(): mixed;

@@ -1,4 +1,7 @@
 <?php
+
+namespace Wrapper;
+
 class Wrapper implements WrapperInterface {
     private mixed $value;
 

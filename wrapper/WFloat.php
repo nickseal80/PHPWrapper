@@ -1,5 +1,6 @@
 <?php
 
+namespace Wrapper;
 class WFloat extends Wrapper implements WrapperInterface
 {
     private float $value;
